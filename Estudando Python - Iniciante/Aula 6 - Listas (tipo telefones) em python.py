@@ -1,16 +1,16 @@
 Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
 
-telefones={"tiago":965181785,"karen:951066314", "nunes":941900079}
+telefones={"tiago":965181785,"karen:912345678", "nunes":941900079}
 SyntaxError: ':' expected after dictionary key
-telefones={"tiago":965181785,"karen":951066314, "nunes":941900079}
+telefones={"tiago":965181785,"karen":912345678, "nunes":941900079}
 telefones
-{'tiago': 965181785, 'karen': 951066314, 'nunes': 941900079}
-telefones{"junior"}=965656577
+{'tiago': 965181785, 'karen': 912345678, 'nunes': 941900079}
+telefones{"junior"}=914141414
 SyntaxError: invalid syntax
-telefones["junior"]=965656577
+telefones["junior"]=914141414
 telefones
-{'tiago': 965181785, 'karen': 951066314, 'nunes': 941900079, 'junior': 965656577}
+{'tiago': 965181785, 'karen': 912345678, 'nunes': 941900079, 'junior': 914141414}
 
 del telefones[junior]
 Traceback (most recent call last):
@@ -19,4 +19,4 @@ Traceback (most recent call last):
 NameError: name 'junior' is not defined
 del telefones["junior"]
 telefones
-{'tiago': 965181785, 'karen': 951066314, 'nunes': 941900079}
+{'tiago': 965181785, 'karen': 912345678, 'nunes': 941900079}
